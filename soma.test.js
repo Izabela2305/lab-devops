@@ -2,6 +2,6 @@
 const soma = require('./soma');
 
 test('deve somar dois números corretamente', () => {
-  expect(soma(2, 3)).toBe(10);
+  expect(soma(2, 3)).toBe(5);
 });
 
