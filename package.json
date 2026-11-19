@@ -1,8 +1,12 @@
+
 {
   "name": "lab-ci",
   "version": "1.0.0",
   "scripts": {
-    "test": "node --test",
+    "test": "jest",
     "build": "mkdir -p dist && cp index.html dist/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
